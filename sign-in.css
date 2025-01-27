@@ -54,6 +54,11 @@ a:hover {
   margin: 0;
 }
 
+.text-box,
+#remember-me {
+  margin-top: 10px;
+}
+
 #picture {
   align-self: center;
   width: 400px;
@@ -89,6 +94,10 @@ form {
 
 input[type="checkbox"] {
   margin-left: 15px;
+}
+
+#forgot-password {
+  margin-left: 250px;
 }
 
 input[type="submit"] {
