@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Setara.com</title>
+    <link rel="stylesheet" href="sign-in.css" />
+    <!-- Link intl-tel-input into Css and Java Script -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="right-section-container">
+        <section class="iputs-container">
+          <img
+            src="Assets/Pictures/Login-Page/Setara-logo.png"
+            alt="Setara"
+            id="picture"
+          />
+          <div class="inputs">
+            <h1>Welcome Back to Setara</h1>
+            <form action="#" method="post">
+              <input
+                class="text-box"
+                type="text"
+                placeholder="Email or Phone Number *"
+                id="email-or-phone"
+                required
+              />
+              <input
+                class="text-box"
+                type="password"
+                id="password"
+                placeholder="Password *"
+              />
+              <input type="checkbox" name="Remember-me" id="remember-me" />
+              <span>Remember Me</span>
+              <input type="submit" value="Submit" />
+              <a href="#" id="have-account">Don't have any account?</a>
+            </form>
+          </div>
+        </section>
+        <footer>
+          <p>&copy; 2025 Setara all rights reserved.</p>
+          <div class="privacy-terms">
+            <a href="#" target="_blank">Privacy Policy</a>
+            <span>|</span>
+            <a href="#" target="_blank">Terms & Conditions</a>
+          </div>
+        </footer>
+      </div>
+      <section class="left-section-container">
+        <img
+          src="Assets/Pictures/Login-Page/marcel-strauss-EMj6W_r24gM-unsplash 2.jpg"
+          alt="Car"
+          width="200px"
+          height="400px"
+        />
+        <div>
+          <h3>Range Rover Velar</h3>
+          <!-- This is countdown timer should be created -->
+          <p id="countdown-timer"></p>
+        </div>
+      </section>
+    </div>
+    <script src="sign-in.js"></script>
+  </body>
+</html>

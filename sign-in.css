@@ -1,0 +1,153 @@
+* {
+  color: black;
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  color: black;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.container {
+  display: flex;
+}
+
+.right-section-container,
+.left-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.iputs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputs h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+#picture {
+  align-self: center;
+  width: 400px;
+  height: 250px;
+}
+
+form {
+  width: 100%;
+}
+
+#email-or-phone,
+#password {
+  display: block;
+  width: 100%;
+}
+
+.text-box {
+  border: 2px solid #ddd;
+  border-radius: 22px;
+  margin: 10px 0;
+  padding: 15px 10px 15px 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.name-box {
+  width: 50%;
+}
+
+#have-account {
+  display: block;
+}
+
+input[type="checkbox"] {
+  margin-left: 15px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 10px;
+  border: 0.1px solid #ddd;
+  border-radius: 22px;
+  padding: 15px 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #5783db;
+}
+
+footer {
+  width: 100%;
+  height: 1000%;
+  display: flex;
+  align-items: end;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+footer p {
+  align-self: end;
+  margin-bottom: 0;
+}
+
+footer div {
+  align-self: end;
+  margin-left: 47%;
+}
+
+.left-section-container {
+  margin-bottom: 0;
+}
+
+.left-section-container img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  filter: brightness(40%);
+}
+
+.left-section-container div {
+  width: 50%;
+  font-size: 30px;
+  position: absolute;
+  margin-top: 4%;
+}
+
+.left-section-container div h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ddddddd5;
+}
+
+#countdown-timer {
+  color: #ddddddd5;
+  margin-left: 37%;
+}
