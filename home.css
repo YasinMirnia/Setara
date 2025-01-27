@@ -1,0 +1,9 @@
+* {
+  color: black;
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
