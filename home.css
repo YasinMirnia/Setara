@@ -64,3 +64,30 @@ header img {
 #menu-bar a i {
   color: aliceblue;
 }
+
+#search-bar {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 10px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none; /* مخفی کردن جعبه جستجو به طور پیش‌فرض */
+  z-index: 1000;
+}
+
+#search-bar input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#search-icon {
+  cursor: pointer;
+}
