@@ -328,6 +328,8 @@ header img {
 }
 
 .winners div h4 {
+  display: flex;
+  justify-content: center;
   color: green;
 }
 
