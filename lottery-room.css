@@ -1,0 +1,115 @@
+* {
+  color: aliceblue;
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #addfff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 1.5%;
+}
+
+h3,
+.status {
+  color: black;
+}
+
+header {
+  display: flex;
+  background-color: #0066ff;
+}
+
+header img {
+  width: 300px;
+  height: 120px;
+}
+
+#timer-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+#timer-container h3,
+#timer-container p {
+  color: aliceblue;
+}
+
+#countdown-timer {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#menu-bar {
+  align-self: center;
+}
+
+#menu-bar a {
+  margin: 20px;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#menu-bar a:hover,
+#menu-bar a i:hover {
+  color: rgb(255, 251, 0);
+}
+
+#menu-bar a i {
+  color: aliceblue;
+}
+
+.fa-magnifying-glass {
+  color: aliceblue;
+}
+
+#search-bar {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 10px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none; /* مخفی کردن جعبه جستجو به طور پیش‌فرض */
+  z-index: 1000;
+}
+
+#search-bar input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#search-icon {
+  cursor: pointer;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #0066ff;
+}
