@@ -11,7 +11,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0066ff;
+  background-color: #addfff;
 }
 
 a {
@@ -23,6 +23,11 @@ h2 {
   justify-content: center;
   margin-top: 3%;
   margin-bottom: 1.5%;
+}
+
+h3,
+.status {
+  color: black;
 }
 
 header {
@@ -101,4 +106,90 @@ header img {
 
 #search-icon {
   cursor: pointer;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #0066ff;
+}
+
+.avalible-prize {
+  display: flex;
+  justify-content: center;
+}
+
+.avalible {
+  padding: 15px;
+  border: solid 0.1px #ccc;
+  background-color: #9bb6dd;
+  border-radius: 5px;
+  margin: 0 20px;
+  box-shadow: 0px 20px 30px -10px rgb(38, 57, 77);
+}
+
+.avalible:hover {
+  perspective: 800px;
+  transition: 0.2s ease-out;
+  background-color: aliceblue;
+}
+
+.avalible img {
+  width: 350px;
+  height: 400px;
+  align-self: center;
+  position: relative;
+  border-radius: 5px;
+}
+
+.status-avalible {
+  color: green;
+  margin-left: 3px;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+}
+
+.avalible-dot {
+  font-size: 2px;
+  margin-left: 5px;
+  padding: 5px;
+  background-color: green;
+  box-shadow: 0px 0px 15px 5px #53ed7c;
+  border-radius: 25px;
+  opacity: 0.5;
+}
+
+.avalible p {
+  color: black;
+}
+
+.price-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-button p {
+  margin-top: 0;
+  padding-top: 12px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 350;
+}
+
+.price-button a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border: solid 0.1px #0066ff;
+  color: #0066ff;
+  border-radius: 4px;
+}
+
+.price-button a:hover {
+  background-color: #0066ff;
+  color: yellow;
 }
