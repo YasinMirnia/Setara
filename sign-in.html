@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=7" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Setara.com</title>
-    <link rel="stylesheet" href="sign-up.css" />
+    <link rel="stylesheet" href="sign-in.css" />
     <!-- Link intl-tel-input into Css and Java Script -->
     <link
       rel="stylesheet"
@@ -30,39 +30,13 @@
             id="picture"
           />
           <div class="inputs">
-            <h1>Welcome to Setara</h1>
+            <h1>Welcome Back to Setara</h1>
             <form action="#" method="post">
               <input
                 class="text-box"
                 type="text"
-                placeholder="First name *"
-                name="First-Name"
-                required
-                class="name-box"
-              />
-              <input
-                class="text-box"
-                type="text"
-                placeholder="Last name *"
-                name="Last-Name"
-                required
-                class="name-box"
-              />
-              <input
-                class="text-box"
-                type="email"
-                placeholder="Email *"
-                id="email"
-                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
-                required
-              />
-              <input
-                class="text-box"
-                type="tel"
-                id="phone"
-                name="phone"
-                pattern="^(\+92)\s[0-9]{7,10}$"
-                placeholder="+92 | xxx xxxxxxx"
+                placeholder="Email or Phone Number *"
+                id="email-or-phone"
                 required
               />
               <input
@@ -71,17 +45,14 @@
                 id="password"
                 placeholder="Password *"
               />
-              <input
-                class="text-box"
-                type="password"
-                id="password"
-                placeholder=" Enter password again *"
-              />
               <input type="checkbox" name="Remember-me" id="remember-me" />
               <span>Remember Me</span>
+              <a href="#" target="_blank" id="forgot-password">
+                Forgot Password?
+              </a>
               <input type="submit" value="Submit" />
-              <a href="sign-in.html" id="have-account"
-                >Already have an account?</a
+              <a href="sign-up.html" id="have-account"
+                >Don't have any account?</a
               >
             </form>
           </div>
@@ -104,10 +75,11 @@
         />
         <div>
           <h3>Range Rover Velar</h3>
+          <!-- This is countdown timer should be created -->
           <p id="countdown-timer"></p>
         </div>
       </section>
     </div>
-    <script src="sign-up.js"></script>
+    <script src="sign-in.js"></script>
   </body>
 </html>
