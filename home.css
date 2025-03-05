@@ -165,15 +165,180 @@ header img {
   font-weight: 400;
   color: black;
 }
+
 .last-winner-name p a {
   color: #0066ff;
 }
 
-/* .special-prizes {
+.prize {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #addfff;
+  margin: 0 100px;
+  border-radius: 25px;
+  margin: 20px 130px;
 }
 
+.main-prize {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.main-prize img {
+  width: 800px;
+  height: 450px;
+  border-radius: 18px;
+  border: solid 1px #0066ff;
+  box-shadow: 0px 20px 30px -10px rgb(38, 57, 77);
+}
+
+.main-prize img:hover {
+  scale: 1.02;
+}
+
+.main-prize h4 {
+  align-self: center;
+  color: #0066ff;
+  margin-bottom: 4px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px aliceblue;
+  font-size: 19px;
+}
+
+.prize h3 {
+  font-weight: 500;
+  color: #0066ff;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.prize h3:hover {
+  color: #0066ff;
+  transition: 0.8;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px yellow, 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#business-package:hover {
+  color: #0066ff;
+  transition: 0.8;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px rgb(0, 192, 0), 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cars,
+.phones {
+  display: flex;
+  margin-top: 0px;
+}
+
+.prizes-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #8cbbed;
+  border-radius: 8px;
+  margin: 0 5px 10px 5px;
+  box-shadow: 0px 10px 20px -10px rgb(38, 57, 77);
+}
+
+.prizes-container:hover {
+  background-color: #addfff;
+  scale: 1.01;
+}
+
+.prizes-container img {
+  width: 350px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.prizes-container img:hover {
+  scale: 1.02;
+}
+
+.prizes-container h6 {
+  align-self: center;
+  color: #0066ff;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.prizes-container span {
+  padding: 2px;
+  border-radius: 25%;
+  background-color: rgba(86, 171, 86, 0.803);
+  width: 23px;
+  height: 23px;
+  margin-bottom: 3px;
+  z-index: +1;
+  font-size: 15px;
+}
+
+.business-prize-order {
+  display: flex;
+}
+
+.tickets-status-avalible,
+.tickets-status-unavalible {
+  color: black;
+}
+
+.tickets-status-avalible span {
+  color: rgb(0, 182, 0);
+}
+
+.tickets-status-unavalible span {
+  color: red;
+}
+
+.prize-link {
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.buy {
+  padding: 10px 20px;
+  border: solid aliceblue 0.2px;
+  background-color: #0066ff;
+}
+
+.buy:hover {
+  background-color: aliceblue;
+  color: #0066ff;
+  border: solid #0066ff 0.2px;
+}
+
+.sold-out:hover {
+  cursor: not-allowed;
+}
+
+.details {
+  padding: 8px 13px;
+  border: solid aliceblue 0.2px;
+  background-color: gray;
+}
+
+.details:hover {
+  background-color: aliceblue;
+  color: black;
+  border: solid gray 0.2px;
+}
+
+.discount {
+  padding: 10px 20px;
+  background-color: #35c035;
+  border-radius: 4px;
+}
+
+.discount a:hover {
+  color: yellow;
+}
+
+/*
 .house-special {
   display: flex;
   flex-direction: column;
