@@ -423,8 +423,16 @@ header img {
   color: green;
 }
 
+.winners div img:hover {
+  scale: 1.01;
+}
+
 .winners div p {
   color: black;
+}
+
+.winners div p:hover {
+  color: #0066ff;
 }
 
 .winners div:hover {
