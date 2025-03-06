@@ -1,0 +1,76 @@
+/* GLOBAL DESINGES */
+* {
+  color: aliceblue;
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0066ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 1.5%;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  background-color: #0066ff;
+}
+
+header img {
+  width: 300px;
+  height: 120px;
+}
+
+#timer-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+#timer-container h3,
+#timer-container p {
+  color: aliceblue;
+}
+
+#countdown-timer {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#menu-bar {
+  align-self: center;
+}
+
+#menu-bar a {
+  margin: 20px;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#menu-bar a:hover,
+#menu-bar a i:hover {
+  color: rgb(255, 251, 0);
+}
+
+#menu-bar a i {
+  color: aliceblue;
+}
