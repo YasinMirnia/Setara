@@ -5,7 +5,7 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  transition: 0.3s;
+  transition: 0.4s;
   box-sizing: border-box;
 }
 
@@ -27,7 +27,6 @@ h2 {
 }
 
 /* HEADER */
-
 header {
   display: flex;
   background-color: #0066ff;
@@ -73,4 +72,49 @@ header img {
 
 #menu-bar a i {
   color: aliceblue;
+}
+
+/* NAVABAR */
+#body-countainer {
+  display: flex;
+}
+
+nav {
+  background-color: #addfff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-right: 30px;
+  position: fixed;
+  height: 600px;
+}
+
+nav ul {
+  padding: 0;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 25% 0;
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0066ff;
+  padding: 10px 16px;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  color: aliceblue;
+  background-color: #0066ff;
+}
+
+nav ul li a:active {
+  background-color: aliceblue;
+  color: #0066ff;
 }
