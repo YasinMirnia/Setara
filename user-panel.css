@@ -3,7 +3,6 @@
   color: aliceblue;
   font-family: "Rubik", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
   font-style: normal;
   transition: 0.4s;
   box-sizing: border-box;
@@ -51,6 +50,14 @@ h6 {
   font-size: 15px;
   opacity: 0.9;
   margin-left: 35%;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
 }
 
 /* HEADER */
@@ -155,7 +162,8 @@ nav ul li a:active {
 #main-body-container h1 {
   align-self: center;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
 
 .profile-picture {
@@ -167,7 +175,8 @@ nav ul li a:active {
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-#user-profile {
+#user-profile,
+.achievements-section {
   display: flex;
   flex-direction: column;
   background-color: #addfff;
@@ -272,4 +281,57 @@ nav ul li a:active {
 
 h6 span {
   color: green;
+}
+
+.achievements-section ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.achievements-divs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 10px;
+  border: #0066ff solid 2px;
+  border-radius: 4px;
+}
+
+.achievements-divs:hover {
+  background-color: #cde6f5;
+}
+
+.achievements-divs h4,
+.achievements-divs p {
+  opacity: 1;
+  padding: 5px;
+  border-bottom: #94bdfa solid 2px;
+}
+
+.achievements-divs h4:hover,
+.achievements-divs p:hover {
+  border-color: #0066ff;
+}
+
+.achievements-divs h4,
+.achievements-divs p,
+.achievements-divs span {
+  margin: 10px;
+  color: #0066ff;
+}
+
+.achievements-divs p a {
+  color: #0066ff;
+}
+
+.achievements-divs p a:hover {
+  color: green;
+}
+
+.achievements-divs span i {
+  color: #0066ff;
+}
+
+.achievements-divs span i:hover {
+  color: black;
 }
