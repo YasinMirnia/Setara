@@ -29,6 +29,22 @@ h2 {
   font-size: 20px;
 }
 
+h3 {
+  align-items: center;
+  color: #0066ff;
+  opacity: 0.8;
+  font-weight: 500;
+  justify-content: center;
+  margin-left: 40%;
+}
+
+h4 {
+  color: #0066ff;
+  font-size: 18px;
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+
 /* HEADER */
 header {
   display: flex;
@@ -156,6 +172,10 @@ nav ul li a:active {
   margin: 30px 50px;
 }
 
+#pic-name {
+  margin-left: 40%;
+}
+
 #balance {
   font-size: 20px;
   font-weight: 600;
@@ -183,4 +203,37 @@ nav ul li a:active {
 #balance-add a:hover {
   background-color: green;
   color: aliceblue;
+}
+
+#email-phone {
+  display: flex;
+  justify-content: space-around;
+}
+
+#email-phone div p,
+#birth-job div p,
+#address p {
+  margin-top: 2px;
+  color: #0066ff;
+  font-size: 18px;
+  padding: 3px 5px;
+  border-radius: 4px;
+  background-color: #cde6f5;
+}
+
+#birth-job {
+  display: flex;
+  justify-content: space-between;
+}
+
+#birth {
+  margin-left: 16%;
+}
+
+#Job {
+  margin-right: 28%;
+}
+
+#address {
+  align-self: center;
 }
