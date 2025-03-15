@@ -63,16 +63,24 @@
           </li>
         </ul>
       </nav>
-      <div>
-        <!-- Notifications Panel -->
-        <a href="#" title="Notifications"><i class="fa-solid fa-bell"></i></a>
+      <div id="main-body-container">
         <!-- User Profile -->
         <h1>User Panel</h1>
-        <section>
-          <img src="Assets/Pictures/me copy.jpg" alt="User Profile" />
-          <h2>Yasin Mirnia</h2>
-          <p>Balance: <span>120$</span></p>
-          <a href="#" target="_blank">Add Balance</a>
+        <section id="user-profile">
+          <div id="balance-img-name">
+            <div>
+              <img
+                src="Assets/Pictures/me copy.jpg"
+                alt="User Profile"
+                class="profile-picture"
+              />
+              <h2>Yasin Mirnia</h2>
+            </div>
+            <div id="balance-add">
+              <p id="balance">Balance: <span>120$</span></p>
+              <a href="#" target="_blank">Add Balance</a>
+            </div>
+          </div>
           <h4>Email</h4>
           <p>Ya3mirnia@Gmail.com</p>
           <h4>Phone Number</h4>
@@ -148,7 +156,11 @@
         <h1>Account Setting</h1>
         <section>
           <form action="#" method="post">
-            <img src="Assets/Pictures/me copy.jpg" alt="Profile Picture" />
+            <img
+              src="Assets/Pictures/me copy.jpg"
+              alt="Profile Picture"
+              class="profile-picture"
+            />
             <button>Change Profile</button>
             <p>Yasin</p>
             <button>Change First Name</button>
