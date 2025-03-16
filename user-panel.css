@@ -334,4 +334,5 @@ h6 span {
 
 .achievements-divs span i:hover {
   color: black;
+  cursor: copy;
 }
