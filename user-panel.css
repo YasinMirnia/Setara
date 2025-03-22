@@ -176,7 +176,8 @@ nav ul li a:active {
 }
 
 #user-profile,
-.achievements-section {
+.achievements-section,
+.account-setting-section {
   display: flex;
   flex-direction: column;
   background-color: #addfff;
@@ -335,4 +336,85 @@ h6 span {
 .achievements-divs span i:hover {
   color: black;
   cursor: copy;
+}
+
+.account-setting-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+#change-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#change-picture img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 8px;
+}
+
+#change-picture button,
+.button {
+  width: 150px;
+  height: 30px;
+  padding: 0 10px;
+  background-color: #a1a1a1;
+  color: aliceblue;
+  opacity: 0.8;
+  border-radius: 3px;
+  border: solid black 1px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 6px, rgba(0, 0, 0, 0.24) 0px 3px 4px;
+}
+
+#change-picture button:hover,
+.button:hover {
+  color: gray;
+  background-color: aliceblue;
+}
+
+#change-picture button:active,
+.button:hover:active {
+  color: aliceblue;
+  background-color: #bdbebd;
+}
+
+.change-dives {
+  display: flex;
+  justify-content: space-around;
+}
+
+.change-div-in-div p,
+#change-address p {
+  margin-bottom: 3px;
+  color: #0066ff;
+}
+
+#change-address {
+  align-self: center;
+}
+
+#undo-save-password {
+  margin: 60px 0;
+  align-self: center;
+}
+
+.save:hover {
+  color: green;
+}
+
+#undo-save-password a {
+  font-size: 12px;
+  color: red;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: red solid 1px;
+  opacity: 0.6;
+}
+
+#undo-save-password a:hover {
+  background-color: red;
+  color: white;
 }
