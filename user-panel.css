@@ -6,6 +6,7 @@
   font-style: normal;
   transition: 0.4s;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
