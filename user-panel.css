@@ -426,9 +426,14 @@ h6 span {
   margin-bottom: 50px;
 }
 
-#contact-us p {
+#contact-us p,
+#contact-us p span {
   color: #0066ff;
   align-self: center;
+}
+
+#contact-us p span:hover {
+  color: black;
 }
 
 #contact-us form {
