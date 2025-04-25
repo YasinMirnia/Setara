@@ -1,0 +1,57 @@
+@media screen and (max-width: 900px) {
+  section img {
+    width: 30px;
+    height: 15px;
+  }
+
+  .container {
+    height: 900px;
+  }
+
+  .inputs h1 {
+    font-size: 20px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-section-container {
+    width: 95%;
+    align-items: center;
+  }
+
+  input {
+    width: 95%;
+  }
+
+  span {
+    font-size: 15px;
+  }
+
+  input[type="chekbox"] {
+    margin: 0;
+  }
+
+  .dont-account {
+    font-size: 15px;
+  }
+
+  .text-box {
+    margin-bottom: 30px;
+  }
+
+  .privacy-terms {
+    font-size: 10px;
+  }
+
+  .privacy-terms a span {
+    font-size: 10px;
+  }
+
+  footer div {
+    margin-left: 10px;
+  }
+}
