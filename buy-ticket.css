@@ -11,7 +11,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #addfff;
+  background-color: white;
 }
 
 a {
@@ -114,126 +114,171 @@ h1 {
   color: #0066ff;
 }
 
-.avalible-prize,
-.finished-prize {
+.prize {
   display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #addfff;
+  margin: 0 100px;
+  border-radius: 25px;
+  margin: 20px 130px;
 }
 
-.avalible {
-  padding: 15px;
-  border: solid 0.1px #ccc;
-  background-color: #9bb6dd;
-  border-radius: 5px;
-  margin: 0 20px;
+.main-prize {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.main-prize img {
+  width: 800px;
+  height: 450px;
+  border-radius: 18px;
+  border: solid 1px #0066ff;
   box-shadow: 0px 20px 30px -10px rgb(38, 57, 77);
 }
 
-.avalible:hover {
-  perspective: 800px;
-  transition: 0.2s ease-out;
-  background-color: aliceblue;
+.main-prize img:hover {
+  scale: 1.02;
 }
 
-.avalible img {
-  width: 350px;
-  height: 400px;
+.main-prize h4 {
   align-self: center;
-  position: relative;
+  color: #0066ff;
+  margin-bottom: 4px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px aliceblue;
+  font-size: 19px;
+  margin-top: 0;
+}
+
+.prize h3 {
+  font-weight: 500;
+  color: #0066ff;
+  padding: 8px;
   border-radius: 5px;
 }
 
-.status-avalible {
-  color: green;
-  margin-left: 3px;
-}
-
-.status-container {
-  display: flex;
-  align-items: center;
-}
-
-.avalible-dot {
-  font-size: 2px;
-  margin-left: 5px;
-  padding: 5px;
-  background-color: green;
-  box-shadow: 0px 0px 15px 5px #53ed7c;
-  border-radius: 25px;
-  opacity: 0.5;
-}
-
-.avalible p {
-  color: black;
-}
-
-.price-button {
-  display: flex;
-  justify-content: space-between;
-}
-
-.price-button p {
-  margin-top: 0;
-  padding-top: 12px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  font-size: 20px;
-  font-weight: 350;
-}
-
-.price-button a {
-  margin-right: 10px;
-  margin-bottom: 10px;
-  padding: 12px 15px;
-  border: solid 0.1px #0066ff;
+.prize h3:hover {
   color: #0066ff;
+  transition: 0.8;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px yellow, 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#business-package:hover {
+  color: #0066ff;
+  transition: 0.8;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px rgb(0, 192, 0), 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cars,
+.phones {
+  display: flex;
+  margin-top: 0px;
+}
+
+.prizes-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #8cbbed;
+  border-radius: 8px;
+  margin: 0 5px 10px 5px;
+  box-shadow: 0px 10px 20px -10px rgb(38, 57, 77);
+}
+
+.prizes-container:hover {
+  background-color: #addfff;
+  scale: 1.01;
+}
+
+.prizes-container img {
+  width: 350px;
+  height: 200px;
   border-radius: 4px;
 }
 
-.price-button a:hover {
-  background-color: #0066ff;
-  color: yellow;
+.prizes-container img:hover {
+  scale: 1.02;
 }
 
-.status-waiting {
-  color: rgb(255, 123, 0);
-  margin-left: 3px;
+.prizes-container h6 {
+  align-self: center;
+  color: #0066ff;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.Waiting-dot {
-  font-size: 2px;
-  margin-left: 5px;
-  padding: 5px;
-  background-color: orange;
-  box-shadow: 0px 0px 15px 5px yellow;
-  border-radius: 25px;
-  opacity: 0.5;
+.prizes-container span {
+  padding: 2px;
+  border-radius: 25%;
+  background-color: rgba(86, 171, 86, 0.803);
+  width: 23px;
+  height: 23px;
+  margin-bottom: 3px;
+  z-index: +1;
+  font-size: 15px;
 }
 
-.status-finished {
-  color: red;
-  margin-left: 3px;
+.business-prize-order {
+  display: flex;
 }
 
-.finished-dot {
-  font-size: 2px;
-  margin-left: 5px;
-  padding: 5px;
-  background-color: red;
-  box-shadow: 0px 0px 15px 5px red;
-  border-radius: 25px;
-  opacity: 0.5;
-}
-
-#Winner-buy-ticket {
+.tickets-status-avalible,
+.tickets-status-unavalible {
   color: black;
 }
 
-#Winner-buy-ticket:hover {
-  color: #0066ff;
+.tickets-status-avalible span {
+  color: rgb(0, 182, 0);
 }
 
-.finished-ticket:hover {
+.tickets-status-unavalible span {
+  color: red;
+}
+
+.prize-link {
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.buy {
+  padding: 10px 20px;
+  border: solid aliceblue 0.2px;
+  background-color: #0066ff;
+}
+
+.buy:hover {
+  background-color: aliceblue;
+  color: #0066ff;
+  border: solid #0066ff 0.2px;
+}
+
+.sold-out:hover {
   cursor: not-allowed;
+}
+
+.details {
+  padding: 8px 13px;
+  border: solid aliceblue 0.2px;
+  background-color: gray;
+}
+
+.details:hover {
+  background-color: aliceblue;
+  color: black;
+  border: solid gray 0.2px;
+}
+
+.discount {
+  padding: 10px 20px;
+  background-color: #35c035;
+  border-radius: 4px;
+}
+
+.discount a:hover {
+  color: yellow;
 }
