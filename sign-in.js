@@ -25,3 +25,10 @@ let x = setInterval(function () {
     document.getElementById("countdown-timer").innerHTML = "Time for draw";
   }
 }, 1000);
+
+if (window.innerWidth < 900) {
+  const element = document.querySelector(".left-section-container");
+  if (element) {
+    element.remove();
+  }
+}
