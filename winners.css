@@ -30,6 +30,14 @@ h3,
   color: black;
 }
 
+h5 {
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  margin-top: 10;
+  margin-bottom: 0;
+}
+
 header {
   display: flex;
   background-color: #0066ff;
@@ -140,6 +148,6 @@ h1 {
   color: black;
 }
 
-.winners div:hover {
-  background-color: aliceblue;
+.instagram-link a {
+  color: black;
 }
