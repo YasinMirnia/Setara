@@ -64,4 +64,30 @@
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
   }
+
+  header img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #timer-container h3 {
+    font-size: 13px;
+  }
+
+  #countdown-timer {
+    font-size: 13px;
+  }
+
+  .first-img-h1-container,
+  .first-img-h1-container img {
+    height: 300px;
+  }
+
+  .first-img-h1-container div {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
 }
