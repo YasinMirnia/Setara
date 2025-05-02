@@ -1,18 +1,23 @@
 @media screen and (max-width: 950px) {
+  h2 {
+    font-size: 20px;
+  }
+
   #menu-bar {
     background-color: #0066ff;
     height: 100vh;
     max-width: 450px;
     position: fixed;
-    z-index: 100000;
+    z-index: 10;
     top: 0;
     right: -450px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     font-size: 3rem;
+    padding-top: 50px;
   }
 
   #menu-bar.active {
@@ -26,10 +31,13 @@
   }
 
   .ham-menu {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     margin-left: auto;
-    position: relative;
+    position: absolute;
+    z-index: 10000;
+    align-items: center;
+    right: 30px;
   }
 
   .ham-menu span {
@@ -65,6 +73,15 @@
     transform: translate(-50%, -50%) rotate(-45deg);
   }
 
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+
   header img {
     width: 80px;
     height: 80px;
@@ -81,6 +98,8 @@
   .first-img-h1-container,
   .first-img-h1-container img {
     height: 300px;
+    width: 100%;
+    margin-top: 40px;
   }
 
   .first-img-h1-container div {
@@ -89,5 +108,216 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
+  }
+
+  .last-winner {
+    width: 100%;
+    padding: 0;
+    margin-top: 40px;
+  }
+
+  .last-winner img {
+    width: 60px;
+    height: 60px;
+    margin-top: 4px;
+    margin-right: 3px;
+  }
+
+  .last-winner-name {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 0;
+    font-weight: 400;
+  }
+
+  .last-winner-name h3,
+  .last-winner-name h4 {
+    margin-bottom: 5px;
+    margin-top: 0;
+    color: black;
+    font-size: 10px;
+  }
+
+  .last-winner-name p {
+    font-weight: 400;
+    color: black;
+    font-size: 8px;
+  }
+
+  .prize {
+    width: 400px;
+    margin: 0 15px;
+    margin-bottom: 10px;
+  }
+
+  .prize h3 {
+    margin-bottom: 3px;
+    font-size: 15px;
+  }
+
+  .main-prize h4 {
+    margin-top: 4px;
+    font-size: 15px;
+  }
+
+  .main-prize img {
+    width: 300px;
+    height: 200px;
+    border-radius: 18px;
+    border: solid 1px #0066ff;
+    box-shadow: 0px 20px 30px -10px rgb(38, 57, 77);
+  }
+
+  .prizes-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    background-color: #8cbbed;
+    border-radius: 8px;
+    margin: 0 5px 10px 5px;
+  }
+
+  .prizes-container img {
+    width: 120px;
+    height: 100px;
+    border-radius: 4px;
+  }
+
+  .prizes-container h6 {
+    font-size: 10px;
+  }
+
+  .prizes-container span {
+    padding: 1.5px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+  }
+
+  .discount {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+  #steps-h3 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .steps {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .step {
+    margin: 10px 0;
+  }
+
+  .step i {
+    font-size: 20px;
+  }
+
+  .step p {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  .steps-footer {
+    margin: 0 30px 12px 30px;
+    padding: 10px;
+    border: solid 2px yellow;
+    box-shadow: 0px 0px 3px 3px rgba(256, 256, 256, 0.5);
+  }
+
+  .steps-footer p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .our-winners-h3 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .winners div img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .winners div {
+    border-radius: 25px;
+    width: 250px;
+    box-shadow: 0px 20px 30px -10px rgb(38, 57, 77);
+    margin: 10px 0px;
+  }
+
+  .winners div h4 {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .winners div p {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .winners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .be-our-next-winner p {
+    font-size: 15px;
+    font-weight: 450;
+    margin-top: 0;
+  }
+
+  .be-our-next-winner a {
+    padding: 8px;
+    border: solid 0.1px yellow;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    height: 210px;
+  }
+
+  .footer-items h5 {
+    font-size: 15px;
+  }
+
+  .footer-items {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+  }
+
+  .footer-items ul li a,
+  .footer-items ul li,
+  .fa-whatsapp,
+  .footer-items ul li a span,
+  .social-media li a i,
+  footer p {
+    font-size: 10px;
+  }
+
+  .footer-items ul li a {
+    margin-top: 0;
+  }
+
+  #contact-us {
+    padding-top: 35px;
+  }
+
+  .footer-items .social-media li {
+    margin: 0 0;
+  }
+
+  .footer-items .social-media {
+    margin-top: 0;
   }
 }
