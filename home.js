@@ -25,3 +25,12 @@ let x = setInterval(function () {
     document.getElementById("countdown-timer").innerHTML = "Time for draw";
   }
 }, 1000);
+
+const hamMenu = document.querySelector(".ham-menu");
+
+const offScreenMenu = document.querySelector("#menu-bar");
+
+hamMenu.addEventListener("click", () => {
+  hamMenu.classList.toggle("active");
+  offScreenMenu.classList.toggle("active");
+});
